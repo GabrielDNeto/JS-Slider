@@ -101,8 +101,7 @@ export default class Slide {
         }
     }
 
-
-    changeSlide(index){
+changeSlide(index){
         const activeSlide = this.slideArray[index];
         this.moveSlide(this.slideArray[index].position);
         this.slidesIndexNav(index);
